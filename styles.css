@@ -1,0 +1,138 @@
+/*
+Author: Lanee Matthews
+Date: September 29, 2022
+File Name: styles.html
+*/
+
+/*CSS Reset */
+body, header, nav, main, footer, img, h1, h3 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/*Style rules for body and images */
+body {
+  background-color: #f6eee4;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+*/
+/*Style rule for header content*/
+style {
+  font-size: 3em;
+  font-family: Georgia, Times, sans-serif;
+  padding: 3%;
+  color: #101a2d;
+  text-align: center
+}
+/*Style rules for navigation area */
+nav {
+  background-color: #1d396d;
+  font-size: 80%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 1.5em;
+  font-family: Verdana, Arial, sans-serif;
+  font-weight: bold;
+}
+
+nav li a {
+  display: block;
+  color: #e3eaf8;
+  text-align: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 2em;
+  padding-left: 2em;
+
+  text-decoration: none;
+}
+
+/* Style rules for main content */
+main {
+  padding: 2%;
+  font-family: Geneva, Arial, sans-serif;
+  value: auto;
+}
+
+main p {
+  font-size: 1.25em;
+}
+
+main h3 {
+  padding-top: 2%;
+  font-size: 2em;
+}
+
+< div = id "image">
+width: 45%;
+float:left;
+
+<div = "group">
+width: 45%
+value: right;
+main ul {
+  list-style-type: square;
+}
+
+/* Style rule for Class Selector */
+class external {
+
+  color font: #1d396d;
+  text decoration: none;
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+
+
+.link {
+  color: #4d3319;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.action {
+  font-size: 1.75em;
+  font-weight: bold;
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+}
+
+/* Style rules for footer content */
+footer {
+  text-align: center;
+  font-size: 0.85em;
+  background-color: #1d396d;
+  color: #e3eaf8;
+  padding-top: 1%
+  padding-bottom: 1%
+  padding-left: 0%
+  padding-right: 0%
+}
+
+footer a {
+  color: #e3eaf8;
+  text-decoration: none;
+}
